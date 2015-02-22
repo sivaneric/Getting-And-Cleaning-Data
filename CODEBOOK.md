@@ -94,76 +94,75 @@ The first record of this file are the column headers.  Below are the description
 
 Variables prefixed with 't' are time domain signals and with 'f' are frequency domain signals
 
-Field Name |Type |Description
-actid |Integer |Activity Id used in the source data sets
-actname |Char |Activity Name
-subid |Integer |Id of the Subject
-tBodyAcc-mean()-X	          Number	Average of Mean of Accelerometer signals - Body Acceleration in Y direction
-tBodyAcc-mean()-Y	          Number	Average of Mean of Accelerometer signals - Body Acceleration in X direction
-tBodyAcc-mean()-Z	          Number	Average of Mean of Accelerometer signals - Body Acceleration in Z direction 
-tGravityAcc-mean()-X	      Number	Average of Mean of Accelerometer signals - Gravity Acceleration in Y direction
-tGravityAcc-mean()-Y	      Number	Average of Mean of Accelerometer signals - Gravity Acceleration in X direction
-tGravityAcc-mean()-Z        Number	Average of Mean of Accelerometer signals - Gravity Acceleration in Z direction
- tBodyAccJerk-mean()-X	    Number	Average of Mean of Jerk signals - Body Acceleration in Y direction
-tBodyAccJerk-mean()-Y	      Number	Average of Mean of Jerk signals - Body Acceleration in X direction
-tBodyAccJerk-mean()-Z	      Number	Average of Mean of Jerk signals - Body Acceleration in Z direction
-tBodyGyro-mean()-X	        Number	Average of Mean of Gyroscope signals - Gravity Acceleration in Y direction
-tBodyGyro-mean()-Y	        Number	Average of Mean of Gyroscope signals - Gravity Acceleration in X direction
-tBodyGyro-mean()-Z          Number	Average of Mean of Gyroscope signals - Gravity Acceleration in Z direction
-tBodyGyroJerk-mean()-X	    Number	Average of Mean of Gyroscope Jerk signals - Gravity Acceleration in Y direction
-tBodyGyroJerk-mean()-Y	    Number	Average of Mean of Gyroscope Jerk signals - Gravity Acceleration in X direction
-tBodyGyroJerk-mean()-Z	    Number	Average of Mean of Gyroscope Jerk signals - Gravity Acceleration in Z direction
-tBodyAccMag-mean()	        Number	Average of Mean of Magnitude of three-dimensional signals - Body Acceleration
-tGravityAccMag-mean()	      Number	Average of Mean of Magnitude of three-dimensional signals - Gravity Acceleration
-tBodyAccJerkMag-mean() 	    Number	Average of Mean of Magnitude of three-dimensional signals - Jerk Signal
-tBodyGyroMag-mean()	        Number	Average of Mean of Magnitude of three-dimensional signals - Gyroscope
-tBodyGyroJerkMag-mean()	    Number	Average of Mean of Magnitude of three-dimensional signals - Gyroscope
-fBodyAcc-mean()-X	          Number	Average of Mean of Accelerometer signals - Body Acceleration in Y direction
-fBodyAcc-mean()-Y	          Number	Average of Mean of Accelerometer signals - Body Acceleration in X direction
-fBodyAcc-mean()-Z	          Number	Average of Mean of Accelerometer signals - Body Acceleration in Z direction 
-fBodyAccJerk-mean()-X  	    Number	Average of Mean of Jerk signals - Body Acceleration in Y direction
-fBodyAccJerk-mean()-Y	      Number	Average of Mean of Jerk signals - Body Acceleration in X direction
-fBodyAccJerk-mean()-Z	      Number	Average of Mean of Jerk signals - Body Acceleration in Z direction
-fBodyGyro-mean()-X	        Number	Average of Mean of Gyroscope signals - Gravity Acceleration in Y direction
-fBodyGyro-mean()-Y	        Number	Average of Mean of Gyroscope signals - Gravity Acceleration in X direction
-fBodyGyro-mean()-Z	        Number	Average of Mean of Gyroscope signals - Gravity Acceleration in Z direction
-fBodyAccMag-mean()         	Number	Average of Mean of Magnitude of three-dimensional signals - Body Acceleration
-fBodyBodyAccJerkMag-mean()	Number	Average of Mean of Magnitude of three-dimensional signals - Jerk Signal
-fBodyBodyGyroMag-mean()	    Number	Average of Mean of Magnitude of three-dimensional signals - Gyroscope
-fBodyBodyGyroJerkMag-mean()	Number	Average of Mean of Magnitude of three-dimensional signals - Gyroscope
-tBodyAcc-std()-X	          Number	Average of Std Dev. of Accelerometer signals - Body Acceleration in Y direction
-tBodyAcc-std()-Y	          Number	Average of Std Dev. of Accelerometer signals - Body Acceleration in X direction
-tBodyAcc-std()-Z	          Number	Average of Std Dev. of Accelerometer signals - Body Acceleration in Z direction 
-tGravityAcc-std()-X	        Number	Average of Std Dev. of Accelerometer signals - Gravity Acceleration in Y direction
-tGravityAcc-std()-Y	        Number	Average of Std Dev. of Accelerometer signals - Gravity Acceleration in X direction
-tGravityAcc-std()-Z       	Number	Average of Std Dev. of Accelerometer signals - Gravity Acceleration in Z direction
- tBodyAccJerk-std()-X	      Number	Average of Std Dev. of Jerk signals - Body Acceleration in Y direction
-tBodyAccJerk-std()-Y	      Number	Average of Std Dev. of Jerk signals - Body Acceleration in X direction
-tBodyAccJerk-std()-Z	      Number	Average of Std Dev. of Jerk signals - Body Acceleration in Z direction
-tBodyGyro-std()-X	          Number	Average of Std Dev. of Gyroscope signals - Gravity Acceleration in Y direction
-tBodyGyro-std()-Y	          Number	Average of Std Dev. of Gyroscope signals - Gravity Acceleration in X direction
-tBodyGyro-std()-Z         	Number	Average of Std Dev. of Gyroscope signals - Gravity Acceleration in Z direction
-tBodyGyroJerk-std()-X	      Number	Average of Std Dev. of Gyroscope Jerk signals - Gravity Acceleration in Y direction
-tBodyGyroJerk-std()-Y	      Number	Average of Std Dev. of Gyroscope Jerk signals - Gravity Acceleration in X direction
-tBodyGyroJerk-std()-Z	      Number	Average of Std Dev. of Gyroscope Jerk signals - Gravity Acceleration in Z direction
-tBodyAccMag-std()	          Number	Average of Std Dev. of Magnitude of three-dimensional signals - Body Acceleration
-tGravityAccMag-std()	      Number	Average of Std Dev. of Magnitude of three-dimensional signals - Gravity Acceleration
-tBodyAccJerkMag-std()     	Number	Average of Std Dev. of Magnitude of three-dimensional signals - Jerk Signal
-tBodyGyroMag-std()	        Number	Average of Std Dev. of Magnitude of three-dimensional signals - Gyroscope
-tBodyGyroJerkMag-std()	    Number	Average of Std Dev. of Magnitude of three-dimensional signals - Gyroscope
-fBodyAcc-std()-X	          Number	Average of Std Dev. of Accelerometer signals - Body Acceleration in Y direction
-fBodyAcc-std()-Y	          Number	Average of Std Dev. of Accelerometer signals - Body Acceleration in X direction
-fBodyAcc-std()-Z	          Number	Average of Std Dev. of Accelerometer signals - Body Acceleration in Z direction 
-fBodyAccJerk-std()-X      	Number	Average of Std Dev. of Jerk signals - Body Acceleration in Y direction
-fBodyAccJerk-std()-Y	      Number	Average of Std Dev. of Jerk signals - Body Acceleration in X direction
-fBodyAccJerk-std()-Z	      Number	Average of Std Dev. of Jerk signals - Body Acceleration in Z direction
-fBodyGyro-std()-X	          Number	Average of Std Dev. of Gyroscope signals - Gravity Acceleration in Y direction
-fBodyGyro-std()-Y	          Number	Average of Std Dev. of Gyroscope signals - Gravity Acceleration in X direction
-fBodyGyro-std()-Z	          Number	Average of Std Dev. of Gyroscope signals - Gravity Acceleration in Z direction
-fBodyAccMag-std()         	Number	Average of Std Dev. of Magnitude of three-dimensional signals - Body Acceleration
-fBodyBodyAccJerkMag-std()	  Number	Average of Std Dev. of Magnitude of three-dimensional signals - Jerk Signal
-fBodyBodyGyroMag-std()	    Number	Average of Std Dev. of Magnitude of three-dimensional signals - Gyroscope
-fBodyBodyGyroJerkMag-std()	Number	Average of Std Dev. of Magnitude of three-dimensional signals - Gyroscope
-
-
+Field Name  |  Type |  Description  
+---------------  | :------  | :---------------  
+Actid  |  Integer  |  Activity Id used in the source data sets  
+Actname  |  Char  |  Activity Name  
+subid   |  Integer   |  Id of the Subject  
+tBodyAcc-mean()-X   |  Number  | Average of Mean of Accelerometer signals - Body Acceleration in Y direction  
+tBodyAcc-mean()-Y  |  Number  |  Average of Mean of Accelerometer signals - Body Acceleration in X direction  
+tBodyAcc-mean()-Z  |  Number  |  Average of Mean of Accelerometer signals - Body Acceleration in Z direction   
+tGravityAcc-mean()-X  |  Number  |  Average of Mean of Accelerometer signals - Gravity Acceleration in Y direction  
+tGravityAcc-mean()-Y  |  Number  |  Average of Mean of Accelerometer signals - Gravity Acceleration in X direction  
+tGravityAcc-mean()-Z  |  Number  |  Average of Mean of Accelerometer signals - Gravity Acceleration in Z direction  
+ tBodyAccJerk-mean()-X    | Number |  Average of Mean of Jerk signals - Body Acceleration in Y direction  
+tBodyAccJerk-mean()-Y  |  Number  |  Average of Mean of Jerk signals - Body Acceleration in X direction  
+tBodyAccJerk-mean()-Z  |  Number  |  Average of Mean of Jerk signals - Body Acceleration in Z direction  
+tBodyGyro-mean()-X  |  Number  |  Average of Mean of Gyroscope signals - Gravity Acceleration in Y direction  
+tBodyGyro-mean()-Y  |  Number  |  Average of Mean of Gyroscope signals - Gravity Acceleration in X direction  
+tBodyGyro-mean()-Z  |  Number  |  Average of Mean of Gyroscope signals - Gravity Acceleration in Z direction  
+tBodyGyroJerk-mean()-X  |  Number  |  Average of Mean of Gyroscope Jerk signals - Gravity Acceleration in Y direction  
+tBodyGyroJerk-mean()-Y  |  Number  |  Average of Mean of Gyroscope Jerk signals - Gravity Acceleration in X direction  
+tBodyGyroJerk-mean()-Z  |  Number  |  Average of Mean of Gyroscope Jerk signals - Gravity Acceleration in Z direction   
+tBodyAccMag-mean()  |  Number  |  Average of Mean of Magnitude of three-dimensional signals - Body Acceleration  
+tGravityAccMag-mean()	  |  Number  |  Average of Mean of Magnitude of three-dimensional signals - Gravity Acceleration  
+tBodyAccJerkMag-mean()  |  Number  |  Average of Mean of Magnitude of three-dimensional signals - Jerk Signal  
+tBodyGyroMag-mean()  |  Number  |  Average of Mean of Magnitude of three-dimensional signals - Gyroscope  
+tBodyGyroJerkMag-mean()  |  Number  |  Average of Mean of Magnitude of three-dimensional signals - Gyroscope  
+fBodyAcc-mean()-X  |  Number  |  Average of Mean of Accelerometer signals - Body Acceleration in Y direction  
+fBodyAcc-mean()-Y  |  Number  |  Average of Mean of Accelerometer signals - Body Acceleration in X direction  
+fBodyAcc-mean()-Z  |  Number  |  Average of Mean of Accelerometer signals - Body Acceleration in Z direction   
+fBodyAccJerk-mean()-X  |  Number  |  Average of Mean of Jerk signals - Body Acceleration in Y direction  
+fBodyAccJerk-mean()-Y  |  Number  |  Average of Mean of Jerk signals - Body Acceleration in X direction  
+fBodyAccJerk-mean()-Z  |  Number  |  Average of Mean of Jerk signals - Body Acceleration in Z direction  
+fBodyGyro-mean()-X  |  Number	  |  Average of Mean of Gyroscope signals - Gravity Acceleration in Y direction  
+fBodyGyro-mean()-Y  |  Number	  |  Average of Mean of Gyroscope signals - Gravity Acceleration in X direction  
+fBodyGyro-mean()-Z  |  Number	  |  Average of Mean of Gyroscope signals - Gravity Acceleration in Z direction  
+fBodyAccMag-mean()  |  Number  |  Average of Mean of Magnitude of three-dimensional signals - Body Acceleration  
+fBodyBodyAccJerkMag-mean()  |  Number  |  Average of Mean of Magnitude of three-dimensional signals - Jerk Signal  
+fBodyBodyGyroMag-mean()  |  Number  |  Average of Mean of Magnitude of three-dimensional signals - Gyroscope  
+fBodyBodyGyroJerkMag-mean()  |  Number  |Average of Mean of Magnitude of three-dimensional signals - Gyroscope  
+tBodyAcc-std()-X   |  Number  | Average of Std. Dev. of Accelerometer signals - Body Acceleration in Y direction  
+tBodyAcc-std()-Y  |  Number  |  Average of Std. Dev. of Accelerometer signals - Body Acceleration in X direction  
+tBodyAcc-std()-Z  |  Number  |  Average of Std. Dev. of Accelerometer signals - Body Acceleration in Z direction   
+tGravityAcc-std()-X  |  Number  |  Average of Std. Dev. of Accelerometer signals - Gravity Acceleration in Y direction  
+tGravityAcc-std()-Y  |  Number  |  Average of Std. Dev. of Accelerometer signals - Gravity Acceleration in X direction  
+tGravityAcc-std()-Z  |  Number  |  Average of Std. Dev. of Accelerometer signals - Gravity Acceleration in Z direction  
+ tBodyAccJerk-std()-X	  | Number |  Average of Std. Dev. of Jerk signals - Body Acceleration in Y direction  
+tBodyAccJerk-std()-Y  |  Number  |  Average of Std. Dev. of Jerk signals - Body Acceleration in X direction  
+tBodyAccJerk-std()-Z  |  Number  |  Average of Std. Dev. of Jerk signals - Body Acceleration in Z direction  
+tBodyGyro-std()-X  |  Number  |  Average of Std. Dev. of Gyroscope signals - Gravity Acceleration in Y direction  
+tBodyGyro-std()-Y  |  Number  |  Average of Std. Dev. of Gyroscope signals - Gravity Acceleration in X direction   
+tBodyGyro-std()-Z  |  Number  |  Average of Std. Dev. of Gyroscope signals - Gravity Acceleration in Z direction   
+tBodyGyroJerk-std()-X  |  Number  |  Average of Std. Dev. of Gyroscope Jerk signals - Gravity Acceleration in Y direction  
+tBodyGyroJerk-std()-Y  |  Number  |  Average of Std. Dev. of Gyroscope Jerk signals - Gravity Acceleration in X direction  
+tBodyGyroJerk-std()-Z  |  Number  |  Average of Std. Dev. of Gyroscope Jerk signals - Gravity Acceleration in Z direction  
+tBodyAccMag-std()  |  Number  |  Average of Std. Dev. of Magnitude of three-dimensional signals - Body Acceleration  
+tGravityAccMag-std()	  |  Number  |  Average of Std. Dev. of Magnitude of three-dimensional signals - Gravity Acceleration  
+tBodyAccJerkMag-std()  |  Number  |  Average of Std. Dev. of Magnitude of three-dimensional signals - Jerk Signal  
+tBodyGyroMag-std()  |  Number  |  Average of Std. Dev. of Magnitude of three-dimensional signals - Gyroscope  
+tBodyGyroJerkMag-std()  |  Number  |  Average of Std. Dev. of Magnitude of three-dimensional signals - Gyroscope  
+fBodyAcc-std()-X  |  Number  |  Average of Std. Dev. of Accelerometer signals - Body Acceleration in Y direction   
+fBodyAcc-std()-Y  |  Number  |  Average of Std. Dev. of Accelerometer signals - Body Acceleration in X direction  
+fBodyAcc-std()-Z  |  Number  |  Average of Std. Dev. of Accelerometer signals - Body Acceleration in Z direction   
+fBodyAccJerk-std()-X  |  Number  |  Average of Std. Dev. of Jerk signals - Body Acceleration in Y direction  
+fBodyAccJerk-std()-Y  |  Number  |  Average of Std. Dev. of Jerk signals - Body Acceleration in X direction  
+fBodyAccJerk-std()-Z  |  Number  |  Average of Std. Dev. of Jerk signals - Body Acceleration in Z direction  
+fBodyGyro-std()-X  |  Number	  |  Average of Std. Dev. of Gyroscope signals - Gravity Acceleration in Y direction  
+fBodyGyro-std()-Y  |  Number	  |  Average of Std. Dev. of Gyroscope signals - Gravity Acceleration in X direction  
+fBodyGyro-std()-Z  |  Number	  |  Average of Std. Dev. of Gyroscope signals - Gravity Acceleration in Z direction  
+fBodyAccMag-std()  |  Number  |  Average of Std. Dev. of Magnitude of three-dimensional signals - Body Acceleration  
+fBodyBodyAccJerkMag-std()  |  Number  |  Average of Std. Dev. of Magnitude of three-dimensional signals - Jerk Signal  
+fBodyBodyGyroMag-std()  |  Number  |  Average of Std. Dev. of Magnitude of three-dimensional signals - Gyroscope  
+fBodyBodyGyroJerkMag-std()  |  Number  |Average of Std. Dev. of Magnitude of three-dimensional signals - Gyroscope  
 
