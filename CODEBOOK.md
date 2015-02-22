@@ -15,77 +15,77 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 These signals were used to estimate variables of the feature vector for each pattern: '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-*tBodyAcc-XYZ
-*tGravityAcc-XYZ
-*tBodyAccJerk-XYZ
-*tBodyGyro-XYZ
-*tBodyGyroJerk-XYZ
-*tBodyAccMag
-*tGravityAccMag
-*tBodyAccJerkMag
-*tBodyGyroMag
-*tBodyGyroJerkMag
-*fBodyAcc-XYZ
-*fBodyAccJerk-XYZ
-*fBodyGyro-XYZ
-*fBodyAccMag
-*fBodyAccJerkMag
-*fBodyGyroMag
-*fBodyGyroJerkMag
+* tBodyAcc-XYZ  
+* tGravityAcc-XYZ  
+* tBodyAccJerk-XYZ  
+* tBodyGyro-XYZ  
+* tBodyGyroJerk-XYZ  
+* tBodyAccMag  
+* tGravityAccMag  
+* tBodyAccJerkMag  
+* tBodyGyroMag  
+* tBodyGyroJerkMag  
+* fBodyAcc-XYZ  
+* fBodyAccJerk-XYZ  
+* fBodyGyro-XYZ  
+* fBodyAccMag  
+* fBodyAccJerkMag  
+* fBodyGyroMag  
+* fBodyGyroJerkMag  
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
-std(): Standard deviation
-mad(): Median absolute deviation 
-max(): Largest value in array
-min(): Smallest value in array
-sma(): Signal magnitude area
-energy(): Energy measure. Sum of the squares divided by the number of values. 
-iqr(): Interquartile range 
-entropy(): Signal entropy
-arCoeff(): Autorregresion coefficients with Burg order equal to 4
-correlation(): correlation coefficient between two signals
-maxInds(): index of the frequency component with largest magnitude
-meanFreq(): Weighted average of the frequency components to obtain a mean frequency
-skewness(): skewness of the frequency domain signal 
-kurtosis(): kurtosis of the frequency domain signal 
-bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+mean(): Mean value  
+std(): Standard deviation  
+mad(): Median absolute deviation   
+max(): Largest value in array  
+min(): Smallest value in array  
+sma(): Signal magnitude area  
+energy(): Energy measure. Sum of the squares divided by the number of values.   
+iqr(): Interquartile range   
+entropy(): Signal entropy  
+arCoeff(): Autorregresion coefficients with Burg order equal to 4  
+correlation(): correlation coefficient between two signals  
+maxInds(): index of the frequency component with largest magnitude  
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency  
+skewness(): skewness of the frequency domain signal     
+kurtosis(): kurtosis of the frequency domain signal     
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.  
 angle(): Angle between to vectors.
 
-Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:  
 
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
+gravityMean  
+tBodyAccMean  
+tBodyAccJerkMean  
+tBodyGyroMean  
+tBodyGyroJerkMean  
 
 Section 2: List of source data sets
 -----------------------------------
 
 The following datasets were downloaded and made available in the working directory:
 
-1. activity_labels.txt - Contains the names of the 6 activities tracked
-2. features.txt - Lists all the features
-3. X_train.txt - First partition of the data collecfted for 70% of the 30 volunteers participated
-4. y_train.txt - Contains Training labels
-5. subject_train.txt - Contains the ids of the train subjects
-6. X_test.txt - First partition of the data collected for 70% of the 30 volunteers participated
-7. y_test.txt - Contains Training labels
-8. subject_test.txt - Contains the ids of the test subjects
+1. activity_labels.txt - Contains the names of the 6 activities tracked  
+2. features.txt - Lists all the features  
+3. X_train.txt - First partition of the data collecfted for 70% of the 30 volunteers participated  
+4. y_train.txt - Contains Training labels  
+5. subject_train.txt - Contains the ids of the train subjects  
+6. X_test.txt - First partition of the data collected for 70% of the 30 volunteers participated  
+7. y_test.txt - Contains Training labels  
+8. subject_test.txt - Contains the ids of the test subjects  
 
 Section 3: Processing to create resultant tidy data set
 -------------------------------------------------------
 
-1. All files were read into individul data frames
-2. Column Names were assigned to the Training Set DF and Test Set DF with the feature names from the features.txt file (#2 above)
-3. Activity Ids and Subject Id columns were appended from the subject files and the training label files(#5, #8, #4, and # 7)
-4. Both the training data and the test data were merged
-5. A subset data set created extracting measurement variables on the mean and the standard deviations
-6. Merged with activity labels data to include descriptive names of activities
-7. Average of each variable for each disctinct combination of activity and subject were calculated for the mean and the standard deviation measurments
-8. A new data set called "tidy_measures.txt" was created with the data in step 7.
+1. All files were read into individul data frames  
+2. Column Names were assigned to the Training Set DF and Test Set DF with the feature names from the features.txt file (#2 above)  
+3. Activity Ids and Subject Id columns were appended from the subject files and the training label files(#5, #8, #4, and # 7)  
+4. Both the training data and the test data were merged  
+5. A subset data set created extracting measurement variables on the mean and the standard deviations  
+6. Merged with activity labels data to include descriptive names of activities  
+7. Average of each variable for each disctinct combination of activity and subject were calculated for the mean and the standard deviation measurments  
+8. A new data set called "tidy_measures.txt" was created with the data in step 7.  
 
 Section 4: Data Fields in tidy_measures.txt data set
 -------------------------------------------------------
@@ -94,10 +94,10 @@ The first record of this file are the column headers.  Below are the description
 
 Variables prefixed with 't' are time domain signals and with 'f' are frequency domain signals
 
-Field Name                  Type	   Description
-actid	                      Integer	Activity Id used in the source data sets
-actname	                    Char	  Activity Name
-subid	                      Integer	Id of the Subject
+Field Name |Type |Description
+actid |Integer |Activity Id used in the source data sets
+actname |Char |Activity Name
+subid |Integer |Id of the Subject
 tBodyAcc-mean()-X	          Number	Average of Mean of Accelerometer signals - Body Acceleration in Y direction
 tBodyAcc-mean()-Y	          Number	Average of Mean of Accelerometer signals - Body Acceleration in X direction
 tBodyAcc-mean()-Z	          Number	Average of Mean of Accelerometer signals - Body Acceleration in Z direction 
